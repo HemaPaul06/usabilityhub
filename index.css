@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@
   --secondary-text-color: #577592;
   --accent-color: #2294ed;
   --accent-color-dark: #1d69a3;
-  --padding-inline-section: 20px
+  --padding-inline-section: 20px;
 }
 
 body {
@@ -32,7 +32,7 @@ h3 {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
   color: var(--secondary-text-color);
   line-height: 1.8rem;
@@ -46,8 +46,6 @@ a {
 ul {
   list-style: none;
 }
-
-
 
 .primary-button {
   background-color: var(--accent-color);
@@ -70,7 +68,6 @@ ul {
   color: var(--primary-text-color) !important;
   padding: 12px 24px;
   transition: 0.2s ease-out;
-
 }
 
 .secondary-button:hover {
@@ -107,7 +104,7 @@ ul {
 
 /* top-banner */
 .top-banner {
-  background-image: url('assets/asset\ 30.png');
+  background-image: url("assets/asset\ 30.png");
   background-size: 300px;
   background-color: #4fb3d4;
 }
@@ -166,7 +163,6 @@ ul {
 
 /* companies-section */
 
-
 .companies-header {
   text-align: center;
   margin-block: 30px;
@@ -191,7 +187,7 @@ ul {
   text-align: center;
 }
 
-.features-header h2 {
+.feature-heading-text {
   margin-bottom: 20px;
 }
 
@@ -203,4 +199,5 @@ ul {
 .features-card {
   flex-direction: column;
   gap: 20px;
+  max-width: 30%;
 }
